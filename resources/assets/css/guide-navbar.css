@@ -9,7 +9,7 @@
 }
 
 #guide-navbar-wrapper-mobile{
-    background-color: white;
+    background-color: #1f8ceb;
     margin-top: -22px;
     margin-bottom: 0;
 
@@ -33,6 +33,17 @@
     margin: 0 auto;
     height: 70px;
     width: 70px;
+}
+#guide-navbar-wrapper-mobile .carousel-control.right{
+    background-image: none;
+    background-color: #1f8ceb;
+}
+#guide-navbar-wrapper-mobile .carousel-control.left{
+    background-image: none;
+    background-color: #1f8ceb;
+}
+#guide-navbar-wrapper-mobile .carousel-caption{
+    margin-top: 400px;
 }
 
 #guide-navbar{
