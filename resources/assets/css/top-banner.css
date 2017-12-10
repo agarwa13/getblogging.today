@@ -1,0 +1,17 @@
+#top-banner{
+    background: #ffffff;
+    border-bottom: 1px solid #A9A9A9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#top-banner-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 622px){
+    #top-banner-button{
+        margin-left: 60px;
+    }
+}

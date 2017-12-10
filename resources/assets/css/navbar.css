@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #1f8ceb !important;
+}
+
+.navbar-inverse{
+    border-bottom: none !important;
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar-toggle{
+    border-color: #253b56 !important;
+}
+
+.navbar-toggle:hover{
+    background-color: #253b56 !important;
+}

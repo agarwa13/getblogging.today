@@ -1,0 +1,45 @@
+#domain-availability{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#domain-availability .form-wrapper{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#domain-availability .alert-wrapper{
+    width: 100%;
+}
+
+.panel-body.domain-availability-panel{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media only screen and (min-width: 600px){
+
+    #domain-availability{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #domain-availability .alert{
+        margin-bottom: 0;
+        height: 114px;
+    }
+
+    #domain-availability .form-wrapper{
+        width: 50%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    #domain-availability .alert-wrapper{
+        width: 48%;
+        float: left;
+    }
+
+}

@@ -1,0 +1,49 @@
+#app h1{
+    font-size: 30px;
+    color: #555F61;
+    font-weight: 400;
+}
+
+#app h2{
+    font-size: 28px;
+    color: #1f8ceb;
+    font-weight: 400;
+}
+
+#app h3{
+    font-size: 20px;
+    color: #1f8ceb;
+    font-weight: 400;
+}
+
+#app h4{
+    font-size: 20px;
+    color: #555F61;
+    font-weight: 400;
+}
+
+#app p, #app label, #app li{
+    color: #707C80;
+    font-weight: 400;
+}
+
+.m-l-sm{
+    margin-left: 4em;
+}
+
+.m-t-m{
+    margin-top: 20px;
+}
+
+.download-presentation-link{
+    font-size: 24px;
+}
+
+.row-after-button{
+    margin-top: 20px;
+}
+
+.alert.yellow-border{
+    border: 2px solid #fed301;
+    padding: 15px 15px 5px 15px;
+}

@@ -1,0 +1,38 @@
+
+
+#bottom-banner{
+    margin-top: 60px;
+    background: #1f8ceb;
+    color: white;
+    border-bottom: 1px solid #A9A9A9;
+    margin-bottom: 0;
+}
+
+#bottom-banner-button{
+    display: block;
+    margin-top: 10px;
+    color: black;
+    background-color: #fed200;
+    border-color: #fed200;
+}
+
+#bottom-banner-button:hover{
+    background-color: #f4b43d;
+    border-color: #f4b43d;
+}
+
+
+@media only screen and (min-width: 550px){
+    #bottom-banner-button{
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 761px){
+    #bottom-banner-button{
+        margin-left: 60px;
+        display: inline-block;
+    }
+}
+
+
