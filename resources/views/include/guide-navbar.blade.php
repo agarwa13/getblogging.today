@@ -87,11 +87,11 @@
 </div>
 
 <div id="guide-navbar-wrapper-mobile">
-    <div class="step active">Step 1</div>
-    <div class="step">Step 2</div>
-    <div class="step">Step 3</div>
-    <div class="step">Step 4</div>
-    <div class="step">Step 5</div>
+    <div class="step @if(Request::is('guide/step-1')) active @endif"><a href="{{ url('/guide/step-1') }}">Step 1</a></div>
+    <div class="step @if(Request::is('guide/step-2')) active @endif"><a href="{{ url('/guide/step-2') }}">Step 2</a></div>
+    <div class="step @if(Request::is('guide/step-3')) active @endif"><a href="{{ url('/guide/step-3') }}">Step 3</a></div>
+    <div class="step @if(Request::is('guide/step-4')) active @endif"><a href="{{ url('/guide/step-4') }}">Step 4</a></div>
+    <div class="step @if(Request::is('guide/step-5')) active @endif"><a href="{{ url('/guide/step-5') }}">Step 5</a></div>
 </div>
 <div id="guide-navbar-wrapper-mobile-border"></div>
 
