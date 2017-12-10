@@ -14,7 +14,7 @@
     <title>@yield('title')</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/all.css?version=1.0') }}" rel="stylesheet">
+    <link href="{{ asset('css/all.css?version=1.1') }}" rel="stylesheet">
 </head>
 <body>
 
