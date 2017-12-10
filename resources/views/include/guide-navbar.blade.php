@@ -92,7 +92,7 @@
 
 
 
-<div id="guide-navbar-wrapper-mobile" class="carousel slide" data-ride="carousel">
+<div id="guide-navbar-wrapper-mobile" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
     {{--<ol class="carousel-indicators">--}}
         {{--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>--}}
