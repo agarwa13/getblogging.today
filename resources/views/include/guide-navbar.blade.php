@@ -86,12 +86,6 @@
     </div>
 </div>
 
-<div id="guide-menu-divider-container">
-    <hr id="guide-menu-divider">
-</div>
-
-
-
 <div id="guide-navbar-wrapper-mobile" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
     {{--<ol class="carousel-indicators">--}}
@@ -147,5 +141,6 @@
     </a>
 </div>
 
-
-
+<div id="guide-menu-divider-container">
+    <hr id="guide-menu-divider">
+</div>
