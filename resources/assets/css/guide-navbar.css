@@ -143,19 +143,19 @@ Guide Menu Divider
     display: none;
 }
 #one-arrow{
-    left: 8px;
+    left: 16px;
 }
 #two-arrow{
-    left: 8px;
+    left: 6px;
 }
 #three-arrow{
-    left: 8px;
+    left: 14px;
 }
 #four-arrow{
-    left: 8px;
+    left: 9px;
 }
 #five-arrow{
-    left: 8px;
+    left: 22px;
 }
 .guide-menu-arrow.active{
     display: block;

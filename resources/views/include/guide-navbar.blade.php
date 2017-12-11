@@ -14,7 +14,7 @@
                             <a class="@if(Request::is('guide/step-1')) active @endif" href="{{ url('guide/step-1') }}">Select Your<br>Domain</a>
                         </div>
 
-                        <img class="guide-menu-arrow @if(Request::is('guide/step-1')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
+                        <img id="one-arrow" class="guide-menu-arrow @if(Request::is('guide/step-1')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
 
                     </div>
 
@@ -31,7 +31,7 @@
                         <div class="description text-center">
                             <a class="@if(Request::is('guide/step-2')) active @endif" href="{{ url('guide/step-2') }}">Setup<br>Hosting</a>
                         </div>
-                        <img class="guide-menu-arrow @if(Request::is('guide/step-2')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
+                        <img id="two-arrow" class="guide-menu-arrow @if(Request::is('guide/step-2')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
                     </div>
 
                     <div class="dots">
@@ -46,7 +46,7 @@
                         <div class="description text-center">
                             <a class="@if(Request::is('guide/step-3')) active @endif" href="{{ url('guide/step-3') }}">Install<br>WordPress</a>
                         </div>
-                        <img class="guide-menu-arrow @if(Request::is('guide/step-3')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
+                        <img id="three-arrow" class="guide-menu-arrow @if(Request::is('guide/step-3')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
                     </div>
 
                     <div class="dots">
@@ -61,7 +61,7 @@
                         <div class="description text-center">
                             <a class="@if(Request::is('guide/step-4')) active @endif" href="{{ url('guide/step-4') }}">Design<br>Your Blog</a>
                         </div>
-                        <img class="guide-menu-arrow @if(Request::is('guide/step-4')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
+                        <img id="four-arrow" class="guide-menu-arrow @if(Request::is('guide/step-4')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
                     </div>
 
                     <div class="dots">
@@ -76,7 +76,7 @@
                         <div class="description text-center">
                             <a class="@if(Request::is('guide/step-5')) active @endif" href="{{ url('guide/step-5') }}">Get Blogging<br>Today</a>
                         </div>
-                        <img class="guide-menu-arrow @if(Request::is('guide/step-5')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
+                        <img id="five-arrow" class="guide-menu-arrow @if(Request::is('guide/step-5')) active @endif"  src="/images/triangle_pointer.png" width="59px" height="29px">
                     </div>
 
                 </div>
