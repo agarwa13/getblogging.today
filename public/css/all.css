@@ -359,10 +359,6 @@ Icons
         line-height: 1.8;
     }
 }
-.navbar{
-    background-color: #1f8ceb !important;
-}
-
 .navbar-inverse{
     border-bottom: none !important;
 }
@@ -425,30 +421,35 @@ Icons
 
 }
 #app h1{
+    font-family: 'Nunito', sans-serif;
     font-size: 30px;
     color: #555F61;
     font-weight: 400;
 }
 
 #app h2{
+    font-family: 'Nunito', sans-serif;
     font-size: 28px;
     color: #1f8ceb;
     font-weight: 400;
 }
 
 #app h3{
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     color: #1f8ceb;
     font-weight: 400;
 }
 
 #app h4{
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     color: #555F61;
     font-weight: 400;
 }
 
 #app p, #app label, #app li{
+    font-family: 'Nunito', sans-serif;
     color: #707C80;
     font-weight: 400;
 }
@@ -487,30 +488,29 @@ Icons
 }
 #welcome-button{
     border-radius: 1000px;
-    padding: 15px 32px 15px 32px;
-}
-#step-by-step{
-    position: relative;
-}
-#click-by-click{
-    position: absolute;
-    left: 20px;
-    bottom: 40px;
+    /*padding: 15px 32px 15px 32px;*/
 }
 #welcome-jumbotron{
     background-color: #136efb;
 }
 h1#welcome-heading{
     color: black;
-    font-size: 42px;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 #app #welcome-tagline{
+    font-size: 26px;
     color: #e3e3e3;
 }
-#post-click-by-click{
-    position: relative;
+.yellow-text{
+    color: #fed301;
 }
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);@charset "UTF-8";
+#welcome-navbar.navbar.navbar-inverse{
+    background-color: #136efb;
+    margin-bottom: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Nunito|Oswald);@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

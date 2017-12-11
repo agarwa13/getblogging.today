@@ -2,14 +2,6 @@
     <div class="container">
         <div class="navbar-header">
 
-            <!-- Collapsed Hamburger -->
-            {{--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">--}}
-                {{--<span class="sr-only">Toggle Navigation</span>--}}
-                {{--<span class="icon-bar"></span>--}}
-                {{--<span class="icon-bar"></span>--}}
-                {{--<span class="icon-bar"></span>--}}
-            {{--</button>--}}
-
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
                 Get Blogging Today
@@ -24,7 +16,7 @@
 
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
-                <li><a>The Fool-Proof Guide to Get Blogging Today!</a></li>
+                {{--<li><a>The Fool-Proof Guide to Get Blogging Today!</a></li>--}}
             </ul>
 
         </div>
