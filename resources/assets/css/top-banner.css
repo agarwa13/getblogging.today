@@ -8,6 +8,13 @@
 #top-banner-button{
     margin-top: 5px;
     margin-bottom: 5px;
+
+    background-color: #fed200;
+    color: black;
+}
+
+#top-banner-button:hover{
+    background-color: #f4b43d;
 }
 
 @media only screen and (min-width: 622px){
