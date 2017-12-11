@@ -47,3 +47,40 @@
     border: 2px solid #fed301;
     padding: 15px 15px 5px 15px;
 }
+
+.btn-yellow{
+    color: black;
+    background-color: #fed200;
+    border: none;
+}
+.btn-yellow:hover{
+    background-color: #f4b43d;
+}
+.m-t-lg{
+    margin-top: 60px;
+}
+#welcome-button{
+    border-radius: 1000px;
+    padding: 15px 32px 15px 32px;
+}
+#step-by-step{
+    position: relative;
+}
+#click-by-click{
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
+#welcome-jumbotron{
+    background-color: #136efb;
+}
+h1#welcome-heading{
+    color: black;
+    font-size: 42px;
+}
+#app #welcome-tagline{
+    color: #e3e3e3;
+}
+#post-click-by-click{
+    position: relative;
+}
