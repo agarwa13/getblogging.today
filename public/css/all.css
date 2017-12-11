@@ -69,6 +69,7 @@
 }
 
 #guide-navbar-wrapper-mobile{
+    margin-top: -28px;
     background-color: #1f8ceb;
 
     display: flex;
