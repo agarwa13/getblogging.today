@@ -28,6 +28,10 @@
     color: white;
 }
 
+#guide-navbar-wrapper-mobile .step a{
+    color: white;
+}
+
 #guide-navbar-wrapper-mobile .step.active{
     border-bottom: 3px solid white;
 }
