@@ -198,14 +198,29 @@ Guide Menu Divider
     -webkit-box-shadow: 0 2px 2px rgba(157,157,157,0.5);
     -o-box-shadow: 0 2px 2px rgba(157,157,157,0.5);
 }
-#guide-menu-arrow{
+.guide-menu-arrow{
     position: absolute;
     z-index: 10;
-    top: 158px;
-    left: 8px;
+    top: 160px;
+
     display: none;
 }
-#guide-menu-arrow.active{
+#one-arrow{
+    left: 8px;
+}
+#two-arrow{
+    left: 8px;
+}
+#three-arrow{
+    left: 8px;
+}
+#four-arrow{
+    left: 8px;
+}
+#five-arrow{
+    left: 8px;
+}
+.guide-menu-arrow.active{
     display: block;
 }
 
