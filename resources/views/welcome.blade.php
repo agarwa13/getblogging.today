@@ -1,7 +1,7 @@
 @extends('layout.welcome')
 
-@section('title','Privacy Policy')
-@section('description','Privacy Policy for Get Blogging Today')
+@section('title','How to Start a Blog - Get Blogging Today')
+@section('description','Free guide to show you how to create a blog that is beautiful and functional, all in an easy step-by-step tutorial (with pictures and videos).')
 
 @section('content')
 
@@ -38,4 +38,24 @@
 
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Hello.</h1>
+                <h2>Welcome to the easiest guide to creating a blog.</h2>
+                <h2>Over 4800 people have used this guide to create and I continually ask for feedback so I can improve this guide. So you are in good hands!</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p>To give you even more confidence that you can do this, I offer my personal services. Follow this guide, give it a shot. If anything doesn't work out, if you get stuck anywhere, just shoot me a note. I will personally setup your blog for you.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>I personally guarantee that you will have a beautiful blog within a few minutes or I will spend 30 minutes on Skype helping you through everything.</h2>
+            </div>
+        </div>
+    </div>
+
 @endsection
