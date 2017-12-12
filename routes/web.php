@@ -42,6 +42,10 @@ Route::get('/printable', function () {
     return view('welcome');
 });
 
+Route::get('/video-course', function () {
+    return view('welcome');
+});
+
 Route::get('/support', function () {
     return view('support');
 });
