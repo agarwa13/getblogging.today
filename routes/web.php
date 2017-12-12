@@ -38,6 +38,10 @@ Route::get('/siteground', function () {
  * Misc Pages
  */
 
+Route::get('/printable', function () {
+    return view('welcome');
+});
+
 Route::get('/support', function () {
     return view('support');
 });
