@@ -50,9 +50,7 @@ Route::get('/support', function () {
     return view('support');
 });
 
-Route::get('/testimonials', function () {
-    return view('testimonials');
-});
+Route::get('/testimonials', 'GeneralController@testimonials');
 
 /**
  * Legal etc.

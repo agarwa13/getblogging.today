@@ -1,7 +1,7 @@
 @extends('layout.default')
 
-@section('title','Privacy Policy')
-@section('description','Privacy Policy for Get Blogging Today')
+@section('title','Terms of Use')
+@section('description','Terms of Use for Get Blogging Today')
 
 @section('content')
 
@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-12">
 
-                <h1>Privacy Policy</h1>
+                <h1>Terms of Use</h1>
 
             </div>
         </div>
