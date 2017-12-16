@@ -32,12 +32,15 @@
     font-weight: 400;
 }
 
+
 .m-l-sm{
     margin-left: 4em;
 }
-
 .m-t-m{
     margin-top: 20px;
+}
+.m-b-m{
+    margin-bottom: 20px;
 }
 
 .download-presentation-link{

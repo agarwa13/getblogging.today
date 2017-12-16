@@ -11,6 +11,8 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap-sass');
+    Typed = require('typed.js');
+
 } catch (e) {}
 
 /**

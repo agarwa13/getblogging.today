@@ -1,26 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="@yield('description')">
-    <meta name="author" content="Nikhil Agarwal from Bloggercasts.com">
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>@yield('title')</title>
-
-    <!-- Styles -->
-    <link href="{{ asset('css/all.css') }}" rel="stylesheet">
-
-    <!-- Fresh Chat -->
-    <script src="https://wchat.freshchat.com/js/widget.js"></script>
-</head>
+@include('include.head-section')
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMQTSDS"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <div id="app">
     @include('include.navbar')
