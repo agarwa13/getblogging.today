@@ -1,6 +1,6 @@
 @extends('layout.guide')
 
-@section('title','')
+@section('title','Choose a Domain Name')
 @section('description','')
 
 @section('content')
@@ -24,7 +24,6 @@
                         @include('include.domain-availability-widget')
                     </div>
                 </div>
-
 
                 <h3>How to Select a Domain Name</h3>
                 <p>

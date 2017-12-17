@@ -8,45 +8,50 @@ use League\Flysystem\Exception;
 class GuideController extends Controller
 {
 
-    public function one(){
+
+    public function one(Request $request){
+
+        if($request->has('domain_name')){
+            return $this->oneWithDomain($request);
+        }
+
         return view('guide.one');
     }
 
-    public function two(Request $request){
+    public function oneWithDomain(Request $request){
 
-        if($request->has('domain_name')){
+        $request->validate([
+            'domain_name' => 'sometimes|required|url'
+        ]);
 
-            $request->validate([
-                'domain_name' => 'sometimes|required|url'
-            ]);
+        try{
+//            $response = \Unirest\Request::get(
+//                "https://domainr.p.mashape.com/v2/status".
+//                "?mashape-key="
+//                .env('MASHAPE_TESTING')
+//                ."&domain="
+//                . $request->domain_name,
+//                array(
+//                    "X-Mashape-Key" => env('MASHAPE_TESTING'),
+//                    "Accept" => "application/json"
+//                )
+//            );
+//
+//            $domain_availability = $response->body->status->summary;
 
-            try{
-                $response = \Unirest\Request::get(
-                    "https://domainr.p.mashape.com/v2/status".
-                    "?mashape-key="
-                    .env('MASHAPE_TESTING')
-                    ."&domain="
-                    . $request->domain_name,
-                    array(
-                        "X-Mashape-Key" => env('MASHAPE_TESTING'),
-                        "Accept" => "application/json"
-                    )
-                );
+            $domain_availability = "Yahoo.com is available";
 
-                $domain_availability = $response->body->status->summary;
-
-            }catch(Exception $exception){
-                $domain_availability = "Likely Available";
-            }
-
-
-            return view('guide.two')
-                ->with('domain_availability',$domain_availability);
-
+        }catch(Exception $exception){
+            $domain_availability = "Likely Available";
         }
 
-        return view('guide.two');
+    return view('guide.one')
+        ->with('domain_availability',$domain_availability);
 
+    }
+
+    public function two(){
+        return view('guide.two');
     }
 
     public function three(){

@@ -42,38 +42,67 @@
         </div>
     </div>
 
-    <div class="container memphis-background">
+
+    <div class="container m-b-m" id="easiest-guide-wrapper">
         <div class="row">
-            <div class="col-md-12">
-                <h1>Hello.</h1>
-                <h2>Welcome to the easiest guide to creating a blog.</h2>
+            <div class="col-md-12 text-center">
+                <h1>The Easiest Guide To Creating A Blog</h1>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-6">
-                Need some text here.
+
+        <div class="row m-t-lg">
+            <div class="col-md-3 col-md-offset-1">
+                <img class="center-block desktop-top-margin" width="200" src="{{ url('/images/icons/guarantee_icon.png') }}">
             </div>
-            <div class="col-md-6">
-                <blockquote>Start a Timer. <br> Follow this tutorial. <br>If you don't have a blog within 20 minutes, <strong>I will personally create one for you</strong>.</blockquote>
+            <div class="col-md-6 col-md-offset-1">
+                <h3>Success Guaranteed</h3>
+                <p>
+                    This guide was developed in close coordination with a group of 25 people who had no clue how to create a blog. Some even struggled to check their email! This guide got each of them through it and 92% said they would actively recommend this tutorial to anyone who was even thinking about starting a blog.
+                </p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row desktop-top-margin">
+            <div class="col-md-3 col-md-offset-1">
+                <img class="center-block desktop-top-margin" width="180" src="{{ url('/images/icons/support_icon.png') }}">
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+                <h3>Support When You Need It</h3>
+                <p>
+                    At the end of the day, if you need help you got it. I help bloggers every day via email / skype / phone and instant message. Simply send me a message by clicking on the blue icon on the bottom right of your screen. I will respond to it promptly and get you through any hurdle you face.
+                </p>
+            </div>
+        </div>
+
+        {{--<div class="row">--}}
+        {{--<div class="col-md-6">--}}
+
+        {{--</div>--}}
+        {{--<div class="col-md-6">--}}
+        {{--<blockquote>Start a Timer. <br> Follow this tutorial. <br>If you don't have a blog within 20 minutes, <strong>I will personally create one for you</strong>.</blockquote>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+
+        <div class="row m-b-m">
             <div class="col-md-12">
-                <h1>Need Call to Action Here.</h1>
+                <div class="text-center">
+                    <a id="welcome-button" href="{{ url('/guide/step-1') }}" class="btn btn-lg btn-yellow m-t-lg">Create a Blog Today</a>
+                </div>
             </div>
         </div>
 
     </div>
 
 
-    <div class="jumbotron">
+
+
+    <div class="jumbotron" id="make-any-blog">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-center">
-                        <h2>Make Any Kind of Blog you Like</h2>
+                        <h1>Make Any Kind of Blog you Like</h1>
                         <h4>
                             These are real blogs that you can create using this tutorial.
                         </h4>
@@ -94,12 +123,13 @@
         </div>
     </div>
 
-    <div class="container memphis-background">
+
+    <div class="container" id="get-blogging-advantage">
         <div class="row m-b-m">
             <div class="col-md-offset-2 col-md-8">
 
                 <div class="text-center">
-                    <h2>The Get Blogging Today Advantage</h2>
+                    <h1>The Get Blogging Today Edge</h1>
                 </div>
                 <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> The Easiest Guide to Follow</h3>
                 <p>
@@ -139,5 +169,7 @@
             </div>
         </div>
     </div>
+
+
 
 @endsection

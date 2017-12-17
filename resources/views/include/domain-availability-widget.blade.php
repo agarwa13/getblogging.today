@@ -1,12 +1,11 @@
 <div id="domain-availability">
 
     <div class="form-wrapper">
-        <form method="get" action="{{ url('guide/step-1') }}">
+        <form method="get" action="{{ url('/guide/step-1') }}">
             <div class="form-group">
                 <label for="domain_name">Type the Domain Name Here</label>
                 <input type="text" class="form-control" id="domain_name" name="domain_name" placeholder="example.com">
             </div>
-
             <button type="submit" class="btn btn-block btn-primary">Check Availability</button>
         </form>
     </div>
