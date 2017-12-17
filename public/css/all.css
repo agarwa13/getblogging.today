@@ -459,12 +459,15 @@ Icons
     font-weight: 400;
 }
 
+
 .m-l-sm{
     margin-left: 4em;
 }
-
 .m-t-m{
     margin-top: 20px;
+}
+.m-b-m{
+    margin-bottom: 20px;
 }
 
 .download-presentation-link{
@@ -518,8 +521,11 @@ h1#welcome-heading{
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
-.m-b-m{
-    margin-bottom: 20px;
+
+
+.memphis-background{
+    background-image: url("https://getblogging.today/images/backgrounds/memphis-colorful.png");
+    background-repeat: repeat;
 }
 /*
 Copied from http://csshexagon.com/

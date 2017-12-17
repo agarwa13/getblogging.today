@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container memphis-background">
         <div class="row">
             <div class="col-md-12">
                 <h1>Hello.</h1>
@@ -94,7 +94,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container memphis-background">
         <div class="row m-b-m">
             <div class="col-md-offset-2 col-md-8">
 

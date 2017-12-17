@@ -94,3 +94,9 @@ h1#welcome-heading{
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+
+
+.memphis-background{
+    background-image: url("https://getblogging.today/images/backgrounds/memphis-colorful.png");
+    background-repeat: repeat;
+}
