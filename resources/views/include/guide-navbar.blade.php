@@ -2,30 +2,40 @@
     <div class="row">
         <div class="col-md-12" id="guide-navbar-simple">
 
-            <div class="menu-item text-center @if(Request::is('guide/step-1')) active @endif">
-                <div class="step-number">Step 1</div>
-                <div class="step-description">Select Domain</div>
-            </div>
+            <a href="{{ url('guide/step-1') }}">
+                <div class="menu-item text-center @if(Request::is('guide/step-1')) active @endif">
+                    <div class="step-number">Step 1</div>
+                    <div class="step-description">Select Domain</div>
+                </div>
+            </a>
 
-            <div class="menu-item text-center @if(Request::is('guide/step-2')) active @endif">
-                <div class="step-number">Step 2</div>
-                <div class="step-description">Setup Hosting</div>
-            </div>
+            <a href="{{ url('guide/step-2') }}">
+                <div class="menu-item text-center @if(Request::is('guide/step-2')) active @endif">
+                    <div class="step-number">Step 2</div>
+                    <div class="step-description">Setup Hosting</div>
+                </div>
+            </a>
 
-            <div class="menu-item text-center @if(Request::is('guide/step-3')) active @endif">
-                <div class="step-number">Step 3</div>
-                <div class="step-description">Install WordPress</div>
-            </div>
+            <a href="{{ url('guide/step-3') }}">
+                <div class="menu-item text-center @if(Request::is('guide/step-3')) active @endif">
+                    <div class="step-number">Step 3</div>
+                    <div class="step-description">Install WordPress</div>
+                </div>
+            </a>
 
-            <div class="menu-item text-center @if(Request::is('guide/step-4')) active @endif">
-                <div class="step-number">Step 4</div>
-                <div class="step-description">Blog Design</div>
-            </div>
+            <a href="{{ url('guide/step-4') }}">
+                <div class="menu-item text-center @if(Request::is('guide/step-4')) active @endif">
+                    <div class="step-number">Step 4</div>
+                    <div class="step-description">Blog Design</div>
+                </div>
+            </a>
 
-            <div class="menu-item text-center @if(Request::is('guide/step-5')) active @endif">
-                <div class="step-number">Step 5</div>
-                <div class="step-description">Get Blogging!</div>
-            </div>
+            <a href="{{ url('guide/step-5') }}">
+                <div class="menu-item text-center @if(Request::is('guide/step-5')) active @endif">
+                    <div class="step-number">Step 5</div>
+                    <div class="step-description">Get Blogging!</div>
+                </div>
+            </a>
 
         </div>
     </div>
