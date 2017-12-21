@@ -11,11 +11,11 @@
     </div>
 
     <div class="alert-wrapper" >
-        @if( ! empty($data['domain_availability']))
+{{--        @if( ! empty($data['domain_availability']))--}}
         <div class="alert alert-success">
             {{ $domain_availability  }}
         </div>
-        @endif
+        {{--@endif--}}
     </div>
 
 </div>

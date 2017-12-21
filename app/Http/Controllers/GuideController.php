@@ -15,7 +15,8 @@ class GuideController extends Controller
             return $this->oneWithDomain($request);
         }
 
-        return view('guide.one');
+        return view('guide.one')
+            ->with('domain_availability','Yahoo.com is a domain');
     }
 
     public function oneWithDomain(Request $request){

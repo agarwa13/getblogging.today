@@ -21,6 +21,7 @@ mix.js([
         'resources/assets/css/top-banner.css',
         'resources/assets/css/bottom-banner.css',
         'resources/assets/css/guide-navbar.css',
+        // 'resources/assets/css/guide-navbar-simple.css',
         'resources/assets/css/footer-basic-centered.css',
         'resources/assets/css/navbar.css',
         'resources/assets/css/domain-availability.css',

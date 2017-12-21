@@ -1,0 +1,41 @@
+#guide-navbar-simple{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 4px solid #b0d8ef;
+}
+
+
+/*
+Border
+*/
+#guide-navbar-simple .menu-item{
+    position: relative;
+    top: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#guide-navbar-simple .menu-item.active{
+    border-bottom: 4px solid #1994d7;
+}
+
+
+/*
+Text
+*/
+#guide-navbar-simple .step-number{
+    font-family: sans-serif;
+    color: #253b56;
+    font-weight: 200;
+    padding-bottom: 3px;
+}
+
+#guide-navbar-simple .step-description{
+    font-family: sans-serif;
+    color: #253b56;
+    font-weight: 500;
+    padding-bottom: 15px;
+}

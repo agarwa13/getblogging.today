@@ -1,17 +1,6 @@
-#guide-navbar-wrapper{
-    background-color: white;
-    margin-top: -22px;
-    margin-bottom: 0;
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: none;
-}
-
-#guide-menu-divider-container{
-    display: none;
-}
-
+/*
+Mobile Navbar
+*/
 #guide-navbar-wrapper-mobile{
     margin-top: -29px;
     background-color: #d9edf7;
@@ -46,14 +35,80 @@
     background-color: #ffffff;
 }
 
+/*
+Guide Menu Divider
+*/
+#guide-menu-divider-container{
+    position: relative;
+    display: none;
+}
+
+
+/*
+Desktop Navbar Simple
+*/
+
+#guide-navbar-simple{
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 4px solid #b0d8ef;
+}
+
+
+/*
+Border
+*/
+#guide-navbar-simple .menu-item{
+    position: relative;
+    top: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#guide-navbar-simple .menu-item.active{
+    border-bottom: 4px solid #1994d7;
+}
+
+
+/*
+Text
+*/
+#guide-navbar-simple .step-number{
+    font-family: sans-serif;
+    color: #253b56;
+    font-weight: 200;
+    padding-bottom: 3px;
+}
+
+#guide-navbar-simple .step-description{
+    font-family: sans-serif;
+    color: #253b56;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+
+
+
+/*
+Show and Hide based on Screen Width
+*/
+
 @media only screen and (min-width: 650px){
 
-    #guide-navbar-wrapper{
-        display: block;
+    #guide-navbar-simple{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
     }
 
     #guide-menu-divider-container{
-        display: block;
+        display: none;
     }
 
     #guide-navbar-wrapper-mobile{
@@ -61,174 +116,4 @@
     }
 
 }
-
-#guide-navbar{
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-.dots{
-    margin-top: 35px;
-}
-.dot:before {
-    content: ' \25CF';
-    font-size: 20px;
-    color: #bababa;
-}
-.dot{
-    width: 20px;
-}
-
-#guide-navbar-wrapper .step{
-    position: relative;
-}
-
-#guide-navbar-wrapper .step .shadow{
-    border: 10000px;
-    box-shadow: 0 2px 2px  rgba(157,157,157,0.5);
-    -moz-box-shadow: 0 2px 2px  rgba(157,157,157,0.5);
-    -webkit-box-shadow: 0 2px 2px  rgba(157,157,157,0.5);
-    -o-box-shadow: 0 2px 2px  rgba(157,157,157,0.5);
-    border-radius: 100px;
-}
-
-#guide-navbar-wrapper .step .image:hover{
-    box-shadow: 0 2px 5px rgba(157,157,157,1);
-    -moz-box-shadow: 0 2px 5px rgba(157,157,157,1);
-    -webkit-box-shadow: 0 2px 5px rgba(157,157,157,1);
-    -o-box-shadow: 0 2px 5px rgba(157,157,157,1);
-    border-radius: 100px;
-    cursor: pointer;
-}
-
-#guide-navbar-wrapper .step .description{
-    margin-top: 10px;
-}
-
-#guide-navbar-wrapper .step .description a{
-    color: #4a4a4a;
-}
-
-#guide-navbar-wrapper .step .description a.active{
-    text-decoration: underline;
-}
-
-/*
-Guide Menu Divider
-*/
-#guide-menu-divider-container{
-    position: relative;
-}
-
-#guide-menu-divider{
-    color: #1f8ceb;
-    background-color: #1f8ceb;
-    margin-top: 0;
-    height: 2px;
-    border: none;
-    box-shadow: 0 2px 2px rgba(157,157,157,0.5);
-    -moz-box-shadow: 0 2px 2px rgba(157,157,157,0.5);
-    -webkit-box-shadow: 0 2px 2px rgba(157,157,157,0.5);
-    -o-box-shadow: 0 2px 2px rgba(157,157,157,0.5);
-}
-.guide-menu-arrow{
-    position: absolute;
-    z-index: 10;
-    top: 160px;
-
-    display: none;
-}
-#one-arrow{
-    left: 16px;
-}
-#two-arrow{
-    left: 6px;
-}
-#three-arrow{
-    left: 14px;
-}
-#four-arrow{
-    left: 9px;
-}
-#five-arrow{
-    left: 22px;
-}
-.guide-menu-arrow.active{
-    display: block;
-}
-
-
-/*
-Icons
-*/
-#guide-navbar-wrapper .icon-holder{
-    width: 70px;
-    height: 70px;
-}
-
-#guide-navbar-wrapper .image.shadow{
-    width: 70px;
-    height: 70px;
-    margin: 0 auto;
-}
-
-#icon-one{
-    background-image: url("/images/domain_search.png");
-    background-size: 70px 70px;
-}
-#icon-one:hover{
-    background-image: url("/images/domain_search_hover.png");
-}
-#icon-one.active{
-    background-image: url("/images/domain_search_selected.png");
-}
-
-#icon-two{
-    background-image: url("/images/hosting.png");
-    background-size: 70px 70px;
-}
-#icon-two:hover{
-    background-image: url("/images/hosting_hover.png");
-}
-#icon-two.active{
-    background-image: url("/images/hosting_selected.png");
-}
-
-#icon-three{
-    background-image: url("/images/wordpress.png");
-    background-size: 70px 70px;
-}
-#icon-three:hover{
-    background-image: url("/images/wordpress_hover.png");
-}
-#icon-three.active{
-    background-image: url("/images/wordpress_selected.png");
-}
-
-#icon-four{
-    background-image: url("/images/design.png");
-    background-size: 70px 70px;
-}
-#icon-four:hover{
-    background-image: url("/images/design_hover.png");
-}
-#icon-four.active{
-    background-image: url("/images/design_selected.png");
-}
-
-#icon-five{
-    background-image: url("/images/launch.png");
-    background-size: 70px 70px;
-}
-#icon-five:hover{
-    background-image: url("/images/launch_hover.png");
-}
-#icon-five.active{
-    background-image: url("/images/launch_selected.png");
-}
-
 
