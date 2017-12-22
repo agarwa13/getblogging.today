@@ -2,6 +2,7 @@
 <html lang="{{ config('app.locale') }}">
 
 @include('include.head-section')
+
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMQTSDS"

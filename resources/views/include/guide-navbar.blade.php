@@ -3,7 +3,7 @@
         <div class="col-md-12" id="guide-navbar-simple">
 
             <a href="{{ url('guide/step-1') }}">
-                <div class="menu-item text-center @if(Request::is('guide/step-1')) active @endif">
+                <div class="menu-item text-center @if(Request::is('guide/step-1') || Request::is('guide/step-1-with-domain')) active @endif">
                     <div class="step-number">Step 1</div>
                     <div class="step-description">Select Domain</div>
                 </div>

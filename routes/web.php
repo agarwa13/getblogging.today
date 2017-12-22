@@ -19,6 +19,7 @@ Route::get('/', function () {
  * The Guide Pages
  */
 
+Route::get('/guide/step-1-with-domain', 'GuideController@oneWithDomain');
 Route::get('/guide/step-1', 'GuideController@one');
 Route::get('/guide/step-2', 'GuideController@two');
 Route::get('/guide/step-3', 'GuideController@three');
