@@ -9,8 +9,14 @@
         <div class="row">
             <div class="col-md-12">
 
+
                 <h2>1. Choose a Domain Name</h2>
-                <p>
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://player.vimeo.com/video/248507567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <p class="m-t-m">
                     For the uninitiated, the domain name is the address of your website. This is what someone can type into the browser to reach your website. For example, you can type "google.com" in your browser to reach Google's website.
                 </p>
 
@@ -27,12 +33,14 @@
 
                 <h3>How to Select a Domain Name</h3>
                 <p>
-                    If you are unsure of which domain name you want to use, I have some tips to help you select your domain name. Here are a few different ways to think about your domain name. You can use</p>
+                    Here are a few different ways to think about your domain name. You can use</p>
                 <ul>
                     <li>your own name (example: "nikhilagarwal.com")</li>
                     <li>the name of your business (example: "seattlepetstore.com")</li>
                     <li>or a completely arbitrary name that your creative mind has come up with.</li>
                 </ul>
+
+                <p>I also have some tips to help you select your domain name if you are struggling to choose between a few you have in mind. </p>
 
                 <h3>Domain Name Selection Tips</h3>
                 <h4>1. Use a domain name ending with dot-com (".com")</h4>
@@ -46,6 +54,19 @@
 
                 <h4>4. Avoid using double letters</h4>
                 <p class="m-l-sm">Domains like "thesecrettrain.com" may also confuse people. For example, they may think it is actually "thesecretrain.com" with a single t instead of two t's.</p>
+
+                <h4>5. Use a domain name that rolls off your tongue</h4>
+                <p class="m-l-sm">Pronounceable domain names like "MakeUpBySally.com" are much easier to use in a conversation than less pronounceable ones like "TheMakeUpAficionado.com". Some people may struggle to say "aficionado"</p>
+
+                <h4>6. Avoid using trademarked words in your domain name</h4>
+                <p class="m-l-sm">Avoid using trademarked words like "Disney" in your domain name. If you are unsure if a word in your domain name is trademarked, you can <a href="https://www.uspto.gov/trademarks-application-process/search-trademark-database" target="_blank">search the United States Patent and Trademark Office's Database.</a></p>
+
+                <h4>7. Use an intuitive domain name</h4>
+                <p class="m-l-sm">Domain names that can inform people what the blog is about can help bring more people to your blog. For example, it is reasonable to expect that seattlepetstore.com is a website that sells pet supplies and is located in Seattle.</p>
+
+                <h4>8. Break the rules</h4>
+                <p class="m-l-sm">Finally, don't treat the above tips as hard and fast rules. This website (getblogging.today) doesn't follow some of the tips above( like using a ".com" domain name).</p>
+
 
                 <div class="alert yellow-border m-t-m">
                     <h4>
