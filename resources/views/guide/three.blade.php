@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/209142532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/209300025" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>
