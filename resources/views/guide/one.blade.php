@@ -12,7 +12,7 @@
 
                 <h2>1. Choose a Domain Name</h2>
 
-                <div class="embed-responsive embed-responsive-16by9">
+                <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248507567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 

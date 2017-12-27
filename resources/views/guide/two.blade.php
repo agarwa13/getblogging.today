@@ -47,7 +47,7 @@
 
         <div class="row">
             <div class="col-md-8">
-                <div class="embed-responsive embed-responsive-16by9">
+                <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248909073" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
@@ -99,7 +99,7 @@
 
         <div class="row">
             <div class="col-md-8">
-                    <div class="embed-responsive embed-responsive-16by9">
+                    <div class="border embed-responsive embed-responsive-16by9">
                         <iframe src="https://player.vimeo.com/video/248910709" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
             </div>
@@ -117,7 +117,7 @@
 
         <div class="row">
             <div class="col-md-8">
-                <div class="embed-responsive embed-responsive-16by9">
+                <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248910893" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>

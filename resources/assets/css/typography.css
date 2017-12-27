@@ -34,7 +34,7 @@
 }
 
 
-iframe{
+.embed-responsive.border iframe{
     border: 2px solid #000000;
 }
 
