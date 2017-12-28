@@ -13,9 +13,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-center">
-                        <h1 id="welcome-heading">Create a Blog in 5 easy steps</h1>
+                        <h1 id="welcome-heading">Create a Blog the RIGHT WAY</h1>
                         <h2 id="welcome-tagline" class="m-t-m">
-                            Follow the <s>step-by-step</s> <span class="yellow-text">click-by-click</span> instructions to get started
+                            Follow the <s>step-by-step</s> <span class="yellow-text">click-by-click</span> instructions to launch a secure, blazing fast blog
                         </h2>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             <div class="row m-t-lg">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209041772" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/249006838?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -46,33 +46,59 @@
     <div class="container m-b-m" id="easiest-guide-wrapper">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1>The Easiest Guide To Creating A Blog</h1>
+                <h2>The Easiest Guide To Creating A Fast & Secure Blog</h2>
+                <h3>Takes more than 20 minutes, but saves you many hours in the long run</h3>
             </div>
         </div>
 
+
+        {{--<div class="row m-t-lg">--}}
+            {{--<div class="col-md-3 col-md-offset-1">--}}
+                {{--<img class="center-block desktop-top-margin" width="200" src="{{ url('/images/icons/guarantee_icon.png') }}">--}}
+            {{--</div>--}}
+            {{--<div class="col-md-3 col-md-offset-1">--}}
+                {{--<h3>Success Guaranteed</h3>--}}
+                {{--<p>--}}
+                    {{--This guide was developed in close coordination with a group of 25 people who had no clue how to create a blog. Some even struggled to check their email! This guide got each of them through it and 92% said they would actively recommend this tutorial to anyone who was even thinking about starting a blog.--}}
+                {{--</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+
+        {{--<div class="row desktop-top-margin">--}}
+            {{--<div class="col-md-3 col-md-offset-1">--}}
+                {{--<img class="center-block desktop-top-margin" width="180" src="{{ url('/images/icons/support_icon.png') }}">--}}
+            {{--</div>--}}
+            {{--<div class="col-md-6 col-md-offset-1">--}}
+                {{--<h3>Support When You Need It</h3>--}}
+                {{--<p>--}}
+                    {{--At the end of the day, if you need help you got it. I help bloggers every day via email / skype / phone and instant message. Simply send me a message by clicking on the blue icon on the bottom right of your screen. I will respond to it promptly and get you through any hurdle you face.--}}
+                {{--</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
 
         <div class="row m-t-lg">
-            <div class="col-md-3 col-md-offset-1">
-                <img class="center-block desktop-top-margin" width="200" src="{{ url('/images/icons/guarantee_icon.png') }}">
-            </div>
-            <div class="col-md-6 col-md-offset-1">
-                <h3>Success Guaranteed</h3>
-                <p>
-                    This guide was developed in close coordination with a group of 25 people who had no clue how to create a blog. Some even struggled to check their email! This guide got each of them through it and 92% said they would actively recommend this tutorial to anyone who was even thinking about starting a blog.
-                </p>
-            </div>
-        </div>
 
-        <div class="row desktop-top-margin">
-            <div class="col-md-3 col-md-offset-1">
-                <img class="center-block desktop-top-margin" width="180" src="{{ url('/images/icons/support_icon.png') }}">
-            </div>
-            <div class="col-md-6 col-md-offset-1">
-                <h3>Support When You Need It</h3>
+            <div class="col-md-4">
+                <h3>Secure</h3>
                 <p>
-                    At the end of the day, if you need help you got it. I help bloggers every day via email / skype / phone and instant message. Simply send me a message by clicking on the blue icon on the bottom right of your screen. I will respond to it promptly and get you through any hurdle you face.
+                    Secure your blog from hackers and protect the people who visit your website. You even get the green secure label from Google.
                 </p>
             </div>
+
+            <div class="col-md-4">
+                <h3>Fast</h3>
+                <p>
+                    Setup Cloudflare and Supercacher so people can see your blog instantly. They don't need to wait for it to load even on slow internet connections.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Scalable</h3>
+                <p>
+                    Get featured in the newspaper. Have your article go viral. Let hundreds of thousands of people see your blog. Your blog can handle it!
+                </p>
+            </div>
+
         </div>
 
         {{--<div class="row">--}}
@@ -151,7 +177,7 @@
                 </p>
                 <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Free guide</h3>
                 <p>
-                    I get a commission from one of the companies I recommend (Site Ground). As a result, this guide is completely free for your use. Typically, I would charge 300-600$ for this guide.
+                    I get a commission from one of the companies I recommend (Site Ground). As a result, this guide is completely free for your use.
                 </p>
                 <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Support available</h3>
                 <p>
@@ -159,7 +185,7 @@
                 </p>
                 <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Guaranteed success</h3>
                 <p>
-                    Here's the deal. Start a timer and get going through this guide. If you don't have a blog up in 20 minutes, I will create your blog for you.
+                    Here's the deal. Start a timer and get going through this guide. If you don't have a blog up in 60 minutes, I will create your blog for you.
                 </p>
 
                 <div class="text-center">

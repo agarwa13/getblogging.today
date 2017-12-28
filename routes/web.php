@@ -24,6 +24,8 @@ Route::get('/guide/step-1', 'GuideController@one');
 Route::get('/guide/step-2', 'GuideController@two');
 Route::get('/guide/step-3', 'GuideController@three');
 Route::get('/guide/step-4', 'GuideController@four');
+Route::post('/reveal-password','GuideController@sendPassword');
+Route::get('/store-cookie','GuideController@storeCookie');
 Route::get('/guide/step-5', 'GuideController@five');
 
 

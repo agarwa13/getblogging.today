@@ -12,10 +12,8 @@
                 <h2>3. Install WordPress</h2>
                 <h3>Secure your Website</h3>
                 <p>
-                    Before we install WordPress, we should ensure we have an SSL certificate. An SSL certificate protects the privacy of people who visit our website. It prevents hackers from stealing their information. You know you are on a website that is secured by an SSL certificate when you see a padlock in the address bar.
+                    Before we install WordPress, we should ensure we have an SSL certificate. An SSL certificate protects the privacy of people who visit our website. It prevents hackers from stealing their information. You know you are on a website that is secured by an SSL certificate when you see a padlock in the address bar (typically green in color).
                 </p>
-
-                <img src="#" class="img-responsive" alt="Image of Padlock in different browsers">
 
                 <p>
                     Follow the quick video below to ensure your visitors are protected:
@@ -63,7 +61,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="border embed-responsive embed-responsive-16by9">
-                    <iframe src="https://player.vimeo.com/video/209300025" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/248917594" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
         </div>

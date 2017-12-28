@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SendPassword;
+use App\Rules\VideosPassword;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Mail;
 use League\Flysystem\Exception;
 
 class GuideController extends Controller
@@ -146,9 +150,33 @@ class GuideController extends Controller
         return view('guide.three');
     }
 
-    public function four(){
+    public function four(Request $request){
+        // If Cookie is set, show the videos
+        // Otherwise, request email / password
+        if( $request->cookie('password') !== null){
+            return view('guide.four');
+        }else{
+            return view('guide.request-email');
+        }
+    }
+
+    public function sendPassword(Request $request){
+        $request->validate([
+            'email' => 'required|email'
+        ]);
+        Mail::to($request->email)->send(new SendPassword());
+        return view('guide.request-email');
+    }
+
+    public function storeCookie(Request $request){
+        $request->validate([
+            'password' => [new VideosPassword]
+        ]);
+        Cookie::queue( Cookie::make('password','true', 50000) );
         return view('guide.four');
     }
+
+
 
     public function five(){
         return view('guide.five');
