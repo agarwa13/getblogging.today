@@ -369,6 +369,10 @@ h3.next-step a{
 .embed-responsive.border{
     margin-top: 40px;
     margin-bottom: 40px;
+    background-image: url("https://getblogging.today/images/backgrounds/loading.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 
