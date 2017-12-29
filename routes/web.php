@@ -29,6 +29,13 @@ Route::get('/store-cookie','GuideController@storeCookie');
 Route::get('/guide/step-5', 'GuideController@five');
 
 
+/*
+ * Downloadable Instructions
+ */
+Route::get('/guide/step-2-download','GuideController@twoDownload');
+Route::get('/guide/step-3-download','GuideController@threeDownload');
+
+
 /**
  * Affiliate Redirects
  */

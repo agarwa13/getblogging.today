@@ -263,9 +263,15 @@ class GuideController extends Controller
     }
 
 
-
     public function five(){
         return view('guide.five');
     }
+
+
+    public function twoDownload(){
+        return response()->download( public_path('downloads/get-blogging-today-step-2-instructions.pdf')  );
+    }
+
+
 
 }

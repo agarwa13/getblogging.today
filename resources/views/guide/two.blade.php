@@ -15,7 +15,7 @@
                 </p>
 
                 <p>
-                    I highly recommend using <a href="https://domains.google/#/">Google Domains</a> to register your domain name. I will show you how to register your domain name with Google Domains in the following video (or you can <a href="#">download / print the presentation</a> that contains the same steps). You can read the aside if you are curious why I recommend Google Domains.
+                    I highly recommend using <a href="https://domains.google/#/">Google Domains</a> to register your domain name. I will show you how to register your domain name with Google Domains in the following video (or you can <a href="{{ url('/guide/step-2-download') }}">download / print the presentation</a> that contains the same steps). You can read the aside if you are curious why I recommend Google Domains.
                 </p>
 
                 <div class="well">
@@ -40,7 +40,7 @@
         <div class="row row-after-button">
             <div class="col-md-12">
                 <p>
-                    Follow along the video below to register your domain name privately. Alternatively, you can also <a href="{{ url('#') }}">download the instructions as a presentation</a>.
+                    Follow along the video below to register your domain name privately. Alternatively, you can also <a href="{{ url('/guide/step-2-download') }}">download the instructions as a presentation</a>.
                 </p>
             </div>
         </div>
@@ -93,7 +93,7 @@
 
         <div class="row row-after-button">
             <div class="col-md-12">
-                <p>Follow along the video below to setup hosting with <a href="{{ url('/siteground') }}">Site Ground</a>. Alternatively, you can also download the instructions as a presentation.</p>
+                <p>Follow along the video below to setup hosting with <a href="{{ url('/siteground') }}">Site Ground</a>. Alternatively, you can also <a href="{{ url('/guide/step-2-download') }}">download the instructions as a presentation.</a></p>
             </div>
         </div>
 
@@ -110,7 +110,7 @@
 
                 <h3>Finally, let's connect Google Domains to Site Ground</h3>
                 <p>
-                    We need to let Google Domains know that Site Ground is hosting our website. Follow along this video (or download the presentation), to complete the necessary steps to get Google Domains and Site Ground work together.
+                    We need to let Google Domains know that Site Ground is hosting our website. Follow along this video (or <a href="{{ url('/guide/step-2-download') }}">download the presentation</a>), to complete the necessary steps to get Google Domains and Site Ground work together.
                 </p>
             </div>
         </div>
