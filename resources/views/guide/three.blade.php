@@ -22,7 +22,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248914167" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -42,7 +42,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248915730" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248917594" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -74,7 +74,7 @@
                     </h4>
                 </div>
 
-                <h3 class="text-right"><a href="{{ url('guide/step-4') }}">Step 4: Design your Blog >> </a></h3>
+                <h3 class="text-right next-step"><a href="{{ url('guide/step-4') }}">Step 4: Design your Blog >> </a></h3>
             </div>
         </div>
 

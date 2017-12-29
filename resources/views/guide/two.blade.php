@@ -25,14 +25,14 @@
                     </p>
                 </div>
 
-                <p>To get started:</p>
+                <h3>To get started:</h3>
 
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <a target="_blank" href="https://domains.google/#/" class="btn btn-lg btn-primary btn-block">Open Google Domains in a New Window</a>
             </div>
         </div>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248909073" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -79,14 +79,14 @@
 
                 </div>
 
-                <p>
-                    Click on the button below to open the plans page on <a href="{{ url('/siteground') }}">Site Ground</a>. After that, you can follow along the video or presentation (both have the same instructions) to setup hosting with <a href="{{ url('/siteground') }}">Site Ground</a>.
-                </p>
+                <h3>
+                    Click on the button below to open the plans page on Site Ground:
+                </h3>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <a target="_blank" href="{{ url('/siteground') }}" class="btn btn-lg btn-primary btn-block">Open Site Ground in a New Window</a>
             </div>
         </div>
@@ -98,7 +98,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                     <div class="border embed-responsive embed-responsive-16by9">
                         <iframe src="https://player.vimeo.com/video/248910709" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
@@ -116,7 +116,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248910893" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -131,7 +131,7 @@
                     </h4>
                 </div>
 
-                <h3 class="text-right"><a href="{{ url('guide/step-3') }}">Step 3: Install WordPress >> </a></h3>
+                <h3 class="text-right next-step"><a href="{{ url('guide/step-3') }}">Step 3: Install WordPress >> </a></h3>
             </div>
         </div>
 

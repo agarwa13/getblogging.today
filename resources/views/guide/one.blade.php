@@ -24,9 +24,9 @@
                     If you already know the domain name you would like to use, you can check to make sure it is available and no one else has already taken it.
                 </p>
 
-                <div class="panel panel-default">
+                <h3>Check the Availability of your Domain Name</h3>
+                <div class="panel panel-default m-t-m">
                     <div class="panel-body domain-availability-panel">
-                        <h4>Check the Availability of your Domain Name</h4>
                         @include('include.domain-availability-widget')
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     </h4>
                 </div>
 
-                <h3 class="text-right"><a href="{{ url('guide/step-2') }}">Step 2: Register Domain and Setup Hosting >> </a></h3>
+                <h3 class="text-right next-step"><a href="{{ url('guide/step-2') }}">Step 2: Register Domain and Setup Hosting >> </a></h3>
 
             </div>
         </div>

@@ -13,35 +13,40 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <ol>
+            <div class="col-md-4">
+                <ul>
                 @foreach($videos as $video)
                     <li>
                         <a href="#{{$video['id']}}">
                             {{$video['title']}}
                         </a>
                     </li>
+
+                    @if($loop->iteration % 7 == 0)
+                        </ul>
+                        </div>
+                        <div class="col-md-4">
+                        <ul>
+                    @endif
+
                 @endforeach
-                </ol>
+                </ul>
             </div>
         </div>
 
-        @foreach($videos as $video)
-            <div class="row" id="{{$video['id']}}">
-                <div class="col-md-12">
-                    <h3>{{$video['title']}}</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
+
+        <div class="row">
+
+                @foreach($videos as $video)
+                <div class="col-md-6">
+                    <h3 id="{{$video['id']}}">{{$video['title']}}</h3>
                     <div class="border embed-responsive embed-responsive-16by9">
                         <iframe src="https://player.vimeo.com/video/{{$video['id']}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
-        @endforeach
+                @endforeach
 
-
+        </div>
 
         <div class="row">
             <div class="col-md-12">
@@ -51,7 +56,7 @@
                     </h4>
                 </div>
 
-                <h3 class="text-right"><a href="{{ url('guide/step-5') }}">Step 5: Get Blogging >> </a></h3>
+                <h3 class="text-right next-step"><a href="{{ url('guide/step-5') }}">Step 5: Get Blogging >> </a></h3>
             </div>
         </div>
 

@@ -183,7 +183,7 @@ Show and Hide based on Screen Width
 
 
 
-.footer-basic-centered{
+#app .footer-basic-centered{
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
@@ -195,19 +195,19 @@ Show and Hide based on Screen Width
     margin-top: 0px;
 }
 
-.footer-basic-centered .footer-company-motto{
+#app .footer-basic-centered .footer-company-motto{
     color:  #ffffff;
     font-size: 24px;
     margin: 0;
 }
 
-.footer-basic-centered .footer-company-name{
+#app .footer-basic-centered .footer-company-name{
     color:  #8f9296;
     font-size: 14px;
     margin: 0;
 }
 
-.footer-basic-centered .footer-links{
+#app .footer-basic-centered .footer-links{
     list-style: none;
     font-weight: bold;
     color:  #8d9093;
@@ -215,34 +215,35 @@ Show and Hide based on Screen Width
     margin: 0;
 }
 
-.footer-basic-centered .footer-links a{
+#app .footer-basic-centered .footer-links a{
     display:inline-block;
     text-decoration: none;
     color: inherit;
+    font-weight: 400;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
 
-    .footer-basic-centered{
+    #app .footer-basic-centered{
         padding: 35px;
     }
 
-    .footer-basic-centered .footer-company-motto{
+    #app .footer-basic-centered .footer-company-motto{
         font-size: 18px;
     }
 
-    .footer-basic-centered .footer-company-name{
+    #app .footer-basic-centered .footer-company-name{
         font-size: 12px;
     }
 
-    .footer-basic-centered .footer-links{
+    #app .footer-basic-centered .footer-links{
         font-size: 14px;
         padding: 25px 0 20px;
     }
 
-    .footer-basic-centered .footer-links a{
+    #app .footer-basic-centered .footer-links a{
         line-height: 1.8;
     }
 }
@@ -348,12 +349,26 @@ Show and Hide based on Screen Width
     margin-top: 20px;
 }
 
+#domain-availability label{
+    font-weight: 400;
+}
+
+h3.next-step a{
+    font-size: 28px;
+}
+
+#app .well{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 .embed-responsive.border iframe{
     border: 2px solid #000000;
 }
 .embed-responsive.border{
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -370,6 +385,18 @@ Show and Hide based on Screen Width
     margin-bottom: 40px;
 }
 
+
+#wordpress-videos-index{
+    column-count: 3;
+}
+
+#wordpress-videos-wrapper{
+    column-count: 2;
+}
+
+
+
+
 .download-presentation-link{
     font-size: 24px;
 }
@@ -379,8 +406,10 @@ Show and Hide based on Screen Width
 }
 
 .alert.yellow-border{
-    border: 2px solid #fed301;
-    padding: 15px 15px 5px 15px;
+    /*border: 2px solid #fed301;*/
+    /*padding: 15px 15px 5px 15px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .btn-yellow{

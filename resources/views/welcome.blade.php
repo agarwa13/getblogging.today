@@ -152,46 +152,58 @@
 
     <div class="container" id="get-blogging-advantage">
         <div class="row m-b-m">
-            <div class="col-md-offset-2 col-md-8">
-
+            <div class="col-md-offset-1 col-md-10">
                 <div class="text-center">
                     <h1>The Get Blogging Today Edge</h1>
                 </div>
-                <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> The Easiest Guide to Follow</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <h3> The Easiest Guide to Follow</h3>
                 <p>
                     Even if you regularly struggle with using a computer, this guide will ensure you are succecssful. No experience or technical skills are required to start your blog with this guide.
                 </p>
                 <h3>
-                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Download and Print versions available
+                     Download and Print versions available
                 </h3>
                 <p>You can download a PDF with annotated pictures for each step of the process and follow along. Alternatively, you can follow the same content via the video tutorial on the website.</p>
                 <h3>
-                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Regularly updated
+                     Regularly updated
                 </h3>
                 <p>
                     This guide is updated regularly. Therefore, everything will look exactly as is shown in this guide when you follow my steps. I spend 10 hours per month on average to make sure this guide is up to date.
                 </p>
-                <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Works on all devices (Mobile, Tablet and Laptops)</h3>
+
+                </div>
+            <div class="col-md-5">
+
+                <h3> Works on all devices</h3>
                 <p>
                     This website is built so that you can watch and implement the lessons on any device. Your smartphone included! Really, you can start a blog with this guide from your smartphone!
                 </p>
-                <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Free guide</h3>
+                <h3> Free guide</h3>
                 <p>
                     I get a commission from one of the companies I recommend (Site Ground). As a result, this guide is completely free for your use.
                 </p>
-                <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Support available</h3>
+                <h3> Support available</h3>
                 <p>
                     There is an icon on the bottom right of every page. Click on it to chat with my instantly. I am here to support you.
                 </p>
-                <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Guaranteed success</h3>
+                <h3> Guaranteed success</h3>
                 <p>
                     Here's the deal. Start a timer and get going through this guide. If you don't have a blog up in 60 minutes, I will create your blog for you.
                 </p>
 
+                </div>
+            </div>
+
+        <div class="row m-b-lg">
+            <div class="col-md-12">
                 <div class="text-center">
                     <a id="welcome-button" href="{{ url('/guide/step-1') }}" class="btn btn-lg btn-yellow m-t-lg">Create a Blog Today</a>
                 </div>
-
             </div>
         </div>
     </div>
