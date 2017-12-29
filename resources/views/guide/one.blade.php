@@ -10,13 +10,13 @@
             <div class="col-md-12">
 
 
-                <h2>1. Choose a Domain Name</h2>
+                <h2 class="m-b-lg">Step 1: Select a Domain Name</h2>
 
                 <div class="border embed-responsive embed-responsive-16by9">
                     <iframe src="https://player.vimeo.com/video/248507567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 
-                <p class="m-t-m">
+                <p>
                     For the uninitiated, the domain name is the address of your website. This is what someone can type into the browser to reach your website. For example, you can type "google.com" in your browser to reach Google's website.
                 </p>
 

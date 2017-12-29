@@ -8,190 +8,40 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-
                 <h2>Step 4: Design your Blog</h2>
-
-                <p>
-                    In the next few lessons, you will learn how to use WordPress. Unlike all the other videos on this website, I have not created these videos myself. Instead, I regularly pay WP 101 to create and update these videos and allow me to share them with you for Free.
-                </p>
-
-                <p>
-                    WP 101 has requested that I keep these videos password protected. Therefore, you need to share your email address with me so I can send you the password. Your email will not be used for anything else. In fact, we don't even store your email address.
-                </p>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Get the Password</h3>
-                <form method="post" action="{{ url('/reveal-password') }}">
-                    <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="hi@example.com">
-                    </div>
-                    <button type="submit" class="btn btn-default">Get the Password</button>
-                </form>
-            </div>
-
-            <div class="col-md-6">
-                <h3>Reveal the Videos</h3>
-                <form method="post" action="{{ url('/guide/step-4') }}">
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" name="password">
-                    </div>
-                    <button type="submit" class="btn btn-default">Reveal the Videos</button>
-                </form>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-12">
-
-                <h3>
-                    <a href="#add-posts" data-toggle="collapse" aria-controls="#add-posts">
-                        Add Posts
-                    </a>
-                </h3>
-                <div class="collapse in" id="add-posts">
-                    <p>
-                        In this video, you will learn how to add posts to your blog. Posts (a.k.a. articles / blog posts) are shown in reverse chronological order (i.e. newest ones first) on your blog. Visitors can browse through and read your blog posts.
-                    </p>
-
-                    <p>
-                        We add some blog posts to our blog before styling it so that we can see how our blog will look like.  Styling your blog post before creating blog posts means you are styling an empty website. In this case, you will not be able to visualize how your blog might look.
-                    </p>
-
-                    <p>
-                        Follow the video below to learn how to add blog posts to your blog and don't worry if you don't have any articles written for your blog already. The video will show you some example content that you can use until you have actual articles written.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <h3>
-                    <a href="#add-pages" data-toggle="collapse" aria-controls="#add-pages">
-                        Add Pages
-                    </a>
-                </h3>
-                <div class="collapse" id="add-pages">
-                    <p>
-                        The process of creating pages is similar to that of creating blog posts. However, pages are not articles. Instead, they are used to show information like your contact information or an about me page.
-                    </p>
-
-                    <p>
-                        Typically, blogs have a few pages linked to in the primary navigation menu. Let's add these pages now. You can always update the content of these pages later.
-                    </p>
-
-                    <img src="#" class="img-responsive" alt="Image of Pages Linked to in the Navigation Menu">
-
-                    <p>
-                        Follow this video to create pages on your blog.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-
-                </div>
-
-
-                <h3>
-                    <a href="#select-a-theme" data-toggle="collapse" aria-controls="#select-a-theme">
-                        Select a Theme
-                    </a>
-                </h3>
-                <div class="collapse" id="select-a-theme">
-                    <p>
-                        In this step, we will transform how your blog looks. Because WordPress is so popular, thousands of developers have created themes for WordPress. A theme determines how your blog looks. In this video, I will show you how you can search and apply a free theme to your blog.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-
-                </div>
-
-                <h3>
-                    <a href="#edit-menu" data-toggle="collapse" aria-controls="#edit-menu">
-                        Edit Menu
-                    </a>
-                </h3>
-                <div class="collapse" id="edit-menu">
-                    <p>
-                        The navigation menu is the first thing users see when they visit your blog. In this lesson, we learn how you can add, rearrange and remove links from the navigation menu.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <h3>
-                    <a href="#edit-sidebar" data-toggle="collapse" aria-controls="#edit-sidebar">
-                        Edit Sidebar
-                    </a>
-                </h3>
-                <div class="collapse" id="edit-sidebar">
-                    <p>
-                        Most themes use a sidebar. Blogs commonly include links to social media sites, the author's photo, a little blurb about the other among other items in the sidebar. In this lesson, we will learn how to add these items to our sidebar.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-
-
-                <h3>
-                    <a href="#edit-footer" data-toggle="collapse" aria-controls="#edit-footer">
-                        Edit Footer
-                    </a>
-                </h3>
-                <div class="collapse" id="edit-footer">
-                    <p>
-                        Some themes use a footer. Editing a footer is typically very similar to editing a sidebar and you may not even need this lesson. However, for the sake of completeness, in this lesson, we will learn how to edit the footer.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <h3>
-                    <a href="#upgrade-to-divi" data-toggle="collapse" aria-controls="#upgrade-to-divi">
-                        Upgrade to a Premium Theme
-                    </a>
-                </h3>
-                <div class="collapse" id="upgrade-to-divi">
-                    <p>
-                        So far we have discussed free themes. You may not be able to achieve the 'look' and 'feel' you desire for your blog using free themes. In this case, you may want to use a premium theme.
-                    </p>
-
-
-                    <p>
-                        There is a wide range of premium themes out there. In the first video, I show you some of the options you have for premium themes.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-
-                    <p>
-                        In this lesson, I dive deeper into one of my favorite premium themes (Divi by Elegant Themes). I demonstrate the power and flexibility of the Divi theme.
-                    </p>
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/209117005" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-
-                </div>
-
+                <ol>
+                @foreach($videos as $video)
+                    <li>
+                        <a href="#{{$video['id']}}">
+                            {{$video['title']}}
+                        </a>
+                    </li>
+                @endforeach
+                </ol>
             </div>
         </div>
+
+        @foreach($videos as $video)
+            <div class="row" id="{{$video['id']}}">
+                <div class="col-md-12">
+                    <h3>{{$video['title']}}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="border embed-responsive embed-responsive-16by9">
+                        <iframe src="https://player.vimeo.com/video/{{$video['id']}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+
+
 
         <div class="row">
             <div class="col-md-12">
@@ -201,7 +51,7 @@
                     </h4>
                 </div>
 
-                <h3 class="text-right"><a href="{{ url('guide/step-4') }}">Step 5: Get Blogging >> </a></h3>
+                <h3 class="text-right"><a href="{{ url('guide/step-5') }}">Step 5: Get Blogging >> </a></h3>
             </div>
         </div>
 

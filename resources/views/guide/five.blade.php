@@ -10,35 +10,44 @@
             <div class="col-md-12">
 
                 <h2>Step 5: Get Blogging</h2>
+
+                <div class="alert alert-info">
+                    <p>
+                        I recommend reading this page all the way through. Some say it is the most valuable page on my website.
+                    </p>
+                </div>
+
+
+                <p>
+                    Armed with a well-setup blog and the WordPress knowledge from the last lesson, you are ready to start blogging. As you do, let me share some advice and a few resources that will be useful to you.
+                </p>
+
                 <h3>
                     Write Articles Regularly
                 </h3>
                 <p>
-                    In this video, we learn how to write catching headlines, create a content calendar and other tricks that bloggers use to stay on-track with creating content. After all, the community you create is eagerly looking forward to your next article.
+                    Now that you know the in's and out's of WordPress, its time to setup a battle rhythm. The #1 reason most blogs fail is because they do not publish content regularly. Neil Patel is a widely respected blogger and he talks about how you can do this in his blog post titled <a href="https://neilpatel.com/blog/create-editorial-calendar/" target="_blank">how to create an editorial calendar</a>. I highly recommend that you follow his detailed tutorial.
                 </p>
 
                 <h3>
                     Create a Mailing List
                 </h3>
-                <blockquote>The Money is in the list</blockquote>
                 <p>
-                    That's a popular quote. It refers to the statistic that bloggers with mailing lists typically make $1 per month per person in their mailing list. Even if you aren't planning to make money with your blog, a mailing list can help you habituate readers into reading your blog on a regular basis. In this lesson, I show you how to create a mailing list. I also give you a sneak peek at a course that you can get to quickly grow your mailing list.
+                    A mailing list can help you keep in touch with people who read your blog. It allows you to contact them when you publish a new blog post or when you want to promote something. Especially if you are seeking to make money from your blog, I highly recommend creating a mailing list.
+                </p>
+                <p>
+                    <a href="http://mbsy.co/convertkit/24701952">ConvertKit</a> is the best mailing list solution for bloggers. The main reasons I like convert kit is that is is easy to use, even for begineers. Also, they have a feature called tagging that becomes very useful if you have multiple ways of collecting their email address.
                 </p>
 
                 <h3>
-                    Find your Audience and Market to them
+                    Marketing is important
                 </h3>
                 <p>
-                    The most challenging part (and the reason many bloggers give up) is because they are unable to attract readers to their blog. In this lesson, we learn about how you can identify where your audience is.
-                </p>
-
-
-                <p>
-                    Now that you know where your audience is, you can pick which marketing strategy is most appropriate for your blog. In the following videos, I point you to the best resources for each marketing strategy.
+                    The most challenging part (and the reason many bloggers give up) is because they are unable to attract readers to their blog. The art and science of getting people to your blog is marketing. Therefore, for each hour you spend writing an article, you should spend one hour marketing your blog.
                 </p>
 
                 <p>
-                    Even if you feel that you can find your audience via multiple channels, I highly recommend you pick one channel and focus your efforts towards growing that channel.
+                    There are many different ways to market your blog. Pinterest, LinkedIn, Facebook, Google Search are all widely used platforms that you can use to market your blog, to help people find your blog. However, it isn't easy. To stand out, you need to learn from a successful blogger, how to leverage a particular platform and optimize your strategy to attract the most people.
                 </p>
 
 
@@ -88,7 +97,7 @@
                     Make Money from your Blog
                 </h3>
                 <p>
-                    There are many ways to make money from a blog. The most common way to make money from your blog is by ....
+
                 </p>
 
             </div>

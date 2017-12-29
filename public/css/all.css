@@ -118,6 +118,7 @@ Desktop Navbar Simple
     justify-content: space-between;
     align-items: stretch;
     border-bottom: 4px solid #b0d8ef;
+    margin-bottom: 20px;
 }
 
 
@@ -311,44 +312,50 @@ Show and Hide based on Screen Width
 
 }
 #app h1, .standard-container h1{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: #555F61;
     font-weight: 400;
 }
 
 #app h2, .standard-container h2{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 32px;
-    color: #253b56;
-    font-weight: 600;
+    color: #27282d;
+    font-weight: 400;
 }
 
 #app h3, .standard-container h3{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    color: #253b56;
+    color: #27282d;
     font-weight: 400;
 }
 
 #app h4, .standard-container h4{
     font-family: sans-serif;
     font-size: 20px;
-    color: #253b56;
+    color: #27282d;
     font-weight: 400;
 }
 
 #app p, #app label, #app li, .standard-container p, .standard-container label, .standard-container li{
     font-size: 18px;
-    font-family: 'Nunito', sans-serif;
-    color: #707C80;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #27282d;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
 .embed-responsive.border iframe{
     border: 2px solid #000000;
 }
+.embed-responsive.border{
+    margin-bottom: 60px;
+}
+
 
 .m-l-sm{
     margin-left: 4em;
@@ -358,6 +365,9 @@ Show and Hide based on Screen Width
 }
 .m-b-m{
     margin-bottom: 20px;
+}
+.m-b-lg{
+    margin-bottom: 40px;
 }
 
 .download-presentation-link{
@@ -432,7 +442,7 @@ h1#welcome-heading{
 #app #get-blogging-advantage h3 {
     color: #1f8ceb;
     font-size: 20px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -492,7 +502,7 @@ Copied from http://csshexagon.com/
     z-index: 2;
     background: inherit;
 }
-@import url(https://fonts.googleapis.com/css?family=Nunito|Oswald);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto|Oswald);@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

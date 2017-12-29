@@ -151,10 +151,95 @@ class GuideController extends Controller
     }
 
     public function four(Request $request){
+
+        $videos = array(
+            '1' =>  array(
+                'id' => '104578891',
+                'title' => 'Part 1: The Dashboard'
+            ),
+            '2' => array(
+                'id' => '81072019',
+                'title' => 'Part 2: Posts vs. Pages'
+            ),
+            '3' => array(
+                'id' => '81124727',
+                'title' => 'Part 3: The Editor'
+            ),
+            '4' => array(
+                'id' => '104552221',
+                'title' => 'Part 4: Creating a New Post'
+            ),
+            '5' => array(
+                'id' => '81687340',
+                'title' => 'Part 5: Post Formats'
+            ),
+            '6' => array(
+                'id' => '81145029',
+                'title' => 'Part 6: Edit an Existing Post'
+            ),
+            '7' => array(
+                'id' => '81151204',
+                'title' => 'Part 7: Categories and Tags'
+            ),
+            '8' => array(
+                'id' => '81217831',
+                'title' => 'Part 8: Creating and Editing Pages'
+            ),
+            '9' => array(
+                'id' => '81228125',
+                'title' => 'Part 9: Adding Photos and Images'
+            ),
+            '10' => array(
+                'id' => '104557979',
+                'title' => 'Part 10: How to Embed Video'
+            ),
+            '11' => array(
+                'id' => '104564504',
+                'title' => 'Part 11: Using the Media Library'
+            ),
+            '12' => array(
+                'id' => '81683808',
+                'title' => 'Part 12: Managing Comments'
+            ),
+            '13' => array(
+                'id' => '81685001',
+                'title' => 'Part 13: Creating Links'
+            ),
+            '14' => array(
+                'id' => '81436462',
+                'title' => 'Part 14: Changing the Theme'
+            ),
+            '15' => array(
+                'id' => '81446773',
+                'title' => 'Part 15: Adding Widgets'
+            ),
+            '16' => array(
+                'id' => '81451242',
+                'title' => 'Part 16: Custom Menus'
+            ),
+            '17' => array(
+                'id' => '104578267',
+                'title' => 'Part 17: Installing Plugins'
+            ),
+            '18' => array(
+                'id' => '81525638',
+                'title' => 'Part 18: Adding New Users'
+            ),
+            '19' => array(
+                'id' => '81532593',
+                'title' => 'Part 19: Useful Tools'
+            ),
+            '20' => array(
+                'id' => '81540428',
+                'title' => 'Part 20: Settings & Configuration'
+            )
+        );
+
         // If Cookie is set, show the videos
         // Otherwise, request email / password
         if( $request->cookie('password') !== null){
-            return view('guide.four');
+            return view('guide.four')
+                ->with('videos',$videos);
         }else{
             return view('guide.request-email');
         }
@@ -165,15 +250,16 @@ class GuideController extends Controller
             'email' => 'required|email'
         ]);
         Mail::to($request->email)->send(new SendPassword());
-        return view('guide.request-email');
+        return view('guide.request-email')
+            ->with('message','The password has been sent to your email address. Don\'t forget to check your spam folder');
     }
 
     public function storeCookie(Request $request){
         $request->validate([
             'password' => [new VideosPassword]
         ]);
-        Cookie::queue( Cookie::make('password','true', 50000) );
-        return view('guide.four');
+        $cookie =  Cookie::make('password','true', 50000);
+        return redirect('/guide/step-4')->withCookie($cookie);
     }
 
 

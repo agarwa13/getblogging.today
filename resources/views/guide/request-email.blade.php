@@ -20,14 +20,16 @@
             </div>
         </div>
 
+        @if( !empty($data['message']) )
         <div class="row">
             <div class="col-md-12">
                 <div class="alert alert-success alert-dismissable">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    Check your email for the password.
+                    {{ $message }}
                 </div>
             </div>
         </div>
+        @endif
 
         <div class="row">
             <div class="col-md-6">

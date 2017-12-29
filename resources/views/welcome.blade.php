@@ -24,7 +24,7 @@
             <div class="row m-t-lg">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://player.vimeo.com/video/249006838?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/249006838" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
