@@ -46,7 +46,7 @@
     <div class="container m-b-m" id="easiest-guide-wrapper">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2>The Easiest Guide To Creating A Fast & Secure Blog</h2>
+                <h1>The Easiest Guide To Creating A Fast & Secure Blog</h1>
                 <h3>Takes more than 20 minutes, but saves you many hours in the long run</h3>
             </div>
         </div>
@@ -78,21 +78,24 @@
 
         <div class="row m-t-lg">
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
+                <img width="40%" height="auto" src="{{ url('/images/features/secure.svg') }}" alt="Secure Icon">
                 <h3>Secure</h3>
                 <p>
                     Secure your blog from hackers and protect the people who visit your website. You even get the green secure label from Google.
                 </p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
+                <img width="40%" height="auto" src="{{ url('/images/features/quick.svg') }}" alt="Quick Icon">
                 <h3>Fast</h3>
                 <p>
                     Setup Cloudflare and Supercacher so people can see your blog instantly. They don't need to wait for it to load even on slow internet connections.
                 </p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
+                <img width="40%" height="auto" src="{{ url('/images/features/scalable.svg') }}" alt="Scalable Icon">
                 <h3>Scalable</h3>
                 <p>
                     Get featured in the newspaper. Have your article go viral. Let hundreds of thousands of people see your blog. Your blog can handle it!

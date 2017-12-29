@@ -55,6 +55,7 @@ h3.next-step a{
 .embed-responsive.border{
     margin-top: 40px;
     margin-bottom: 40px;
+    background-image: url("https://getblogging.today/images/backgrounds/loading.gif");
 }
 
 
@@ -144,10 +145,10 @@ h1#welcome-heading{
 }
 
 #easiest-guide-wrapper h1, #make-any-blog h1, #get-blogging-advantage h1{
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
-    color: #253b56;
-    font-family: sans-serif;
+    color: #27282d;
+    font-family: 'Roboto', sans-serif;
 }
 
 #easiest-guide-wrapper h3{

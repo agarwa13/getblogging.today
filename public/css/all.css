@@ -458,10 +458,10 @@ h1#welcome-heading{
 }
 
 #easiest-guide-wrapper h1, #make-any-blog h1, #get-blogging-advantage h1{
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
-    color: #253b56;
-    font-family: sans-serif;
+    color: #27282d;
+    font-family: 'Roboto', sans-serif;
 }
 
 #easiest-guide-wrapper h3{
