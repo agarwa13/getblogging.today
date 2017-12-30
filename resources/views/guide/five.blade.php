@@ -1,7 +1,7 @@
 @extends('layout.guide')
 
-@section('title','')
-@section('description','')
+@section('title','Get Blogging Today')
+@section('description','Learn a few tips and tricks that will help you get started blogging on the right foot')
 
 @section('content')
 

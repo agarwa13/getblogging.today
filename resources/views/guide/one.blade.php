@@ -1,7 +1,7 @@
 @extends('layout.guide')
 
 @section('title','Choose a Domain Name')
-@section('description','')
+@section('description','Choose a Domain Name for your Blog. Includes tips to help you select the best name and an availability checker to make sure your domain name is available.')
 
 @section('content')
 

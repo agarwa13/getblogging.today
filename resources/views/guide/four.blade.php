@@ -1,7 +1,7 @@
 @extends('layout.guide')
 
-@section('title','')
-@section('description','')
+@section('title','Design your Blog - Get Blogging Today')
+@section('description','Learn how to use WordPress to add content and change how your blog looks with 20 video tutorials.')
 
 @section('content')
 

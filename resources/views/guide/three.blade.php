@@ -1,7 +1,7 @@
 @extends('layout.guide')
 
-@section('title','')
-@section('description','')
+@section('title','Install WordPress - Get Blogging Today')
+@section('description','Secure your blog with HTTPS, Speed up your Blog with Cloudflare and Install WordPress, the world\'s most popular blogging platform.')
 
 @section('content')
 

@@ -1,7 +1,7 @@
 @extends('layout.guide')
 
-@section('title','')
-@section('description','')
+@section('title','Setup Hosting - Get Blogging Today')
+@section('description','Register your Domain name with Google Domains and Setup Hosting with Site Ground by following the step by step instructions.')
 
 @section('content')
 

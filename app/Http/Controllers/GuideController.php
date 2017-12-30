@@ -272,6 +272,10 @@ class GuideController extends Controller
         return response()->download( public_path('downloads/get-blogging-today-step-2-instructions.pdf')  );
     }
 
+    public function threeDownload(){
+        return response()->download( public_path('downloads/get-blogging-today-step-3-instructions.pdf')  );
+    }
+
 
 
 }
