@@ -36,6 +36,11 @@ Route::get('/guide/step-2-download','GuideController@twoDownload');
 Route::get('/guide/step-3-download','GuideController@threeDownload');
 
 
+/*
+ * Landing Pages
+ */
+Route::get('/download-guide','GuideController@downloadGuide');
+
 /**
  * Affiliate Redirects
  */

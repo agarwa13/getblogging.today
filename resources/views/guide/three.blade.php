@@ -16,7 +16,7 @@
                 </p>
 
                 <p>
-                    Follow the quick video below to ensure your visitors are protected:
+                    Follow the quick video below (or <a href="{{ url('/guide/step-3-download') }}">download the instructions</a>) to ensure your visitors are protected:
                 </p>
             </div>
         </div>
@@ -36,7 +36,7 @@
                     Cloud Flare is just awesomeness. You see, Site Ground provides a computer in one location, say Chicago. The further away someone is from Chicago, the slower the website appears to that person. Cloud Flare solves this problem by essentially making copies of parts of your website all over the world!
                 </p>
                 <p>
-                    Follow the video below to setup Cloud Flare. Since Site Ground is a Cloud Flare partner, the integration is seamless and setup only takes a few seconds.
+                    Follow the video below (or <a href="{{ url('/guide/step-3-download') }}">download the instructions</a>) to setup Cloud Flare. Since Site Ground is a Cloud Flare partner, the integration is seamless and setup only takes a few seconds.
                 </p>
             </div>
         </div>
@@ -53,7 +53,7 @@
             <div class="col-md-12">
                 <h3>Install WordPress</h3>
                 <p>
-                    Now we are ready to install WordPress. WordPress gives us the ability to create a beautiful blog without having to write a single line of code! Follow the video below to install WordPress:
+                    Now we are ready to install WordPress. WordPress gives us the ability to create a beautiful blog without having to write a single line of code! Follow the video below (or <a href="{{ url('/guide/step-3-download') }}">download the instructions</a>) to install WordPress:
                 </p>
             </div>
         </div>
