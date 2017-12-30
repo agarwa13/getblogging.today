@@ -276,8 +276,12 @@ class GuideController extends Controller
         return response()->download( public_path('downloads/get-blogging-today-step-3-instructions.pdf')  );
     }
 
+    public function download(){
+        return response()->download( public_path('downloads/get-blogging-today-instructions-complete.pdf')  );
+    }
+
     public function downloadGuide(){
-        return redirect();
+        return view('welcome-download');
     }
 
 

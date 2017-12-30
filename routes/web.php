@@ -34,7 +34,7 @@ Route::get('/guide/step-5', 'GuideController@five');
  */
 Route::get('/guide/step-2-download','GuideController@twoDownload');
 Route::get('/guide/step-3-download','GuideController@threeDownload');
-
+Route::get('/guide/download','GuideController@download');
 
 /*
  * Landing Pages
