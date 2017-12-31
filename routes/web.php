@@ -45,9 +45,12 @@ Route::get('/download-guide','GuideController@downloadGuide');
  * Affiliate Redirects
  */
 
-Route::get('/siteground', function () {
-    return redirect('https://www.siteground.com/web-hosting.htm?afcode=b3f3468f407693d098dfbe552423dcb8');
-});
+Route::get('/siteground','AffiliateController@siteground');
+Route::get('/wordpress-dot-com','AffiliateController@wordpressDotCom');
+Route::get('/a2hosting','AffiliateController@a2hosting');
+Route::get('/bluehost','AffiliateController@bluehost');
+Route::get('/kinsta','AffiliateController@kinsta');
+Route::get('/wpengine','AffiliateController@wpengine');
 
 /**
  * Misc Pages
