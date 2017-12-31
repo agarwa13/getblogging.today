@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/quiz', function () {
+    return view('welcome-quiz');
+});
+
+
+
 /**
  * The Guide Pages
  */

@@ -10,19 +10,11 @@
 @section('content')
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
 
-                <form id="my-form-element" cf-form ...>
+    <div class="jumbotron" id="conversation-bot">
 
-                    
+                <div style="width: 100%; height:500px; position: relative; overflow: hidden;"><iframe width="100%" height="100%" frameborder="0" src="https://landbot.io/u/H-22015-WQ7PTDHNIJFPTCIR/index.html" style="position: absolute; left:0; right:0; bottom:0; top:0; border:0;"></iframe></div>
 
-                </form>
-
-            </div>
-        </div>
     </div>
-
 
 @endsection

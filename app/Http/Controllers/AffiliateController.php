@@ -11,6 +11,7 @@ class AffiliateController extends Controller
         return redirect('https://www.siteground.com/web-hosting.htm?afcode=b3f3468f407693d098dfbe552423dcb8');
     }
 
+    // TODO: Update with affiliate link
     public function a2hosting(){
         return redirect("https://www.a2hosting.com/web-hosting");
     }
@@ -23,6 +24,7 @@ class AffiliateController extends Controller
         return redirect("https://wordpress.com/pricing/?aff=189");
     }
 
+    // TODO: Update with affiliate link
     public function kinsta(){
         return redirect("https://kinsta.com/plans/");
     }
